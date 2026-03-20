@@ -92,7 +92,7 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
     # Plot training and validation loss
     print("Name: Mahasri D")
-    print("Register Number: 212224040217")
+    print("Register Number: 212224220058")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
